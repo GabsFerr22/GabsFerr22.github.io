@@ -39,12 +39,14 @@
     color: white !important;
   }
 
-.imagemPerfil{
-  width: 3.10rem;
-  height: 3.0rem;
-  border-radius: 50px;
-}
+    
+    .imagemPerfil{
+      width: 3.10rem;
+      height: 3.10rem;
+      border-radius: 50px;
+    }
   
+
   
   body {
     font-family: Arial, sans-serif;
