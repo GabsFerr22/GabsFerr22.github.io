@@ -66,15 +66,7 @@ border-radius: 50px;
              -2px -2px 2px #ffffff;
 }
 
-.textundeline{
-  text-decoration: none;
-  color: black;
-}
 
-.textundeline3{
-  text-decoration: none;
-  color: black;
-}
 
 
 
@@ -201,9 +193,15 @@ border-radius: 50px;
 .navbar navbar-expand-lg bg-body-tertiary {
     padding: 0px!important;
     gap: 10px!important;
+ 
 }
  a.nav-link {
-    margin-right: 25px;
+    margin-right: 10px;
+    row-gap: 1rem;
  }
 
-
+.card{
+ display: grid;
+ gap: 40px;
+margin: 1rem;
+}

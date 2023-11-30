@@ -7,15 +7,12 @@ body{
 .carousel{
     width: 85%;
     overflow: hidden;
-    height: 20rem;
+    height: 25rem;
     left: 7%;
     top: 30px;
   display: flex;
   align-items: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    background-color: transparent;
     border-radius: 15px;
 }
 
@@ -47,19 +44,17 @@ body{
   color: white !important;
 }
 .btn-entrar{
-background-color:white !important;
-color: rgb(177, 234, 65) !important ;
-width: 3.20rem;
-padding: 0;
-transition: .4s;
-border-radius: 50px;
-}
-
-.imagemPerfil{
-  width: 3.10rem;
-  height: 3.10rem;
-  border-radius: 50px;
-}
+  background-color:white !important;
+  color: rgb(177, 234, 65) !important ;
+  width: 6rem;
+  transition: .4s;
+  }
+  
+  .btn-entrar:hover{
+    box-shadow:  2px 2px ,
+               -2px -2px 2px #ffffff;
+  }
+  
 
 .btn-entrar:hover{
   box-shadow:  2px 2px ,

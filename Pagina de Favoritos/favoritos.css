@@ -99,3 +99,8 @@ border-radius: 50px;
     margin-top: 25%;
     margin-left: 40%;
 }
+
+a.nav-link {
+  margin-right: 10px;
+  row-gap: 1rem;
+}

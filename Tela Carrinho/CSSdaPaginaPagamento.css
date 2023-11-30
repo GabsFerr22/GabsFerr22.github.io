@@ -12,7 +12,10 @@
     background-color: transparent;
 }
 
-
+a.nav-link {
+  margin-right: 10px;
+  row-gap: 1rem;
+}
 
 .btn-primary{
      justify-content: center;
@@ -35,9 +38,22 @@
 }
 
 .btn-entrar{
-    background-color: white;
-    width: 10%;
+  background-color:white !important;
+  color: rgb(177, 234, 65) !important ;
+  width: 4rem;
+transition: .4s;
+border-radius: 50px;
 }
+
+.imagemPerfil{
+  width: 3.10rem;
+  height: 3.0rem;
+  border-radius: 50px;
+}
+  .btn-entrar:hover{
+    box-shadow:  2px 2px ,
+               -2px -2px 2px #ffffff;
+  }
 
 .d-flex{
     width: 30%;

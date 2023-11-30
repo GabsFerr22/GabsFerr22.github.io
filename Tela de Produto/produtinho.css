@@ -25,23 +25,30 @@
   color: white !important;
 }
 .btn-entrar{
-background-color:white !important;
-color: rgb(177, 234, 65) !important ;
-width: 4rem;
-transition: .4s;
-border-radius: 50px;
-}
-
-.imagemPerfil{
-  width: 3.10rem;
-  height: 3.0rem;
+  background-color:white !important;
+  color: rgb(177, 234, 65) !important ;
+  width: 3.20rem;
+  padding: 0;
+  transition: .4s;
   border-radius: 50px;
-}
+  }
+  
+  .imagemPerfil{
+    width: 3.10rem;
+    height: 3.10rem;
+    border-radius: 50px;
+  }
+  
+  .btn-entrar:hover{
+    box-shadow:  2px 2px ,
+               -2px -2px 2px #ffffff;
+  }
 
-.btn-entrar:hover{
-  box-shadow:  2px 2px ,
-             -2px -2px 2px #ffffff;
-}
+
+  a.nav-link {
+    margin-right: 10px;
+    row-gap: 1rem;
+ }
 
 
 .carousel{

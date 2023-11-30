@@ -45,7 +45,7 @@
       height: 3.10rem;
       border-radius: 50px;
     }
-  
+    
 
   
   body {
@@ -117,3 +117,8 @@
     margin-bottom: 20px; /* Adiciona algum espaço abaixo de cada card */
   }
   
+
+  a.nav-link {
+    margin-right: 10px;
+    row-gap: 1rem;
+ }

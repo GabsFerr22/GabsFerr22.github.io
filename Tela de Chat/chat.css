@@ -40,6 +40,12 @@ border-radius: 50px;
     box-shadow:  2px 2px ,
                -2px -2px 2px #ffffff;
   }
+
+
+  a.nav-link {
+    margin-right: 10px;
+    row-gap: 1rem;
+ }
   
   .card {
     width: 99%;
@@ -231,10 +237,7 @@ border-radius: 50px;
     width: 100%;
   }
 
-  #input_group button{
-
-  }
-
+  
 
   .container{
     justify-content: center;
