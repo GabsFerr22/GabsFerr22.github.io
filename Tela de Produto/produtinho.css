@@ -24,14 +24,7 @@
   background-color: rgb(177, 234, 65) !important;
   color: white !important;
 }
-.btn-entrar{
-  background-color:white !important;
-  color: rgb(177, 234, 65) !important ;
-  width: 3.20rem;
-  padding: 0;
-  transition: .4s;
-  border-radius: 50px;
-  }
+
   
   .imagemPerfil{
     width: 3.10rem;

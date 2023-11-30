@@ -197,8 +197,9 @@ body{
     padding: 0px!important;
     gap: 10px!important;
 }
- a.nav-link {
-    margin-right: 25px;
- }
+a.nav-link {
+  margin-right: 10px;
+  row-gap: 1rem;
+}
 
 
