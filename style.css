@@ -9,11 +9,11 @@ body{
     overflow: hidden;
     height: 25rem;
     left: 7%;
-    top: 30px;
+    top: 1.875rem;
   display: flex;
   align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 0.938rem;
 }
 
 
@@ -50,15 +50,11 @@ body{
   transition: .4s;
   }
   
-  .btn-entrar:hover{
-    box-shadow:  2px 2px ,
-               -2px -2px 2px #ffffff;
-  }
   
 
 .btn-entrar:hover{
-  box-shadow:  2px 2px ,
-             -2px -2px 2px #ffffff;
+  box-shadow:  0.125rem 0.125rem ,
+             -0.125rem -0.125rem 0.125rem #ffffff;
 }
 
 .textundeline{
@@ -74,8 +70,8 @@ body{
 
 
 .btn-category{
-    height: 90px;
-    width: 100px;
+    height: 5.625rem;
+    width: 6.25rem;
     background-color: greenyellow;
     border-radius: 40%;
     align-items: center;
@@ -85,8 +81,8 @@ body{
     -webkit-box-pack: center;
 }
 .btn-category2{
-    height: 90px;
-    width: 100px;
+    height: 5.625rem;
+    width: 6.25rem;
     background-color:greenyellow;
     border-radius: 40%;
     align-items: center;
@@ -98,8 +94,8 @@ body{
 }
 .btn-category3{
    
-    height: 90px;
-    width: 100px;
+    height: 5.625rem;
+    width: 6.25rem;
     background-color: greenyellow;
     border-radius: 40%;
     align-items: center;
@@ -111,8 +107,8 @@ body{
 
 } 
 .btn-category4{
-    height: 90px;
-    width: 100px;
+    height: 5.625rem;
+    width: 6.25rem;
     background-color: greenyellow;
     border-radius: 40%;
     align-items: center;
@@ -123,8 +119,8 @@ body{
 
 }
 .btn-category5{
-    height: 90px;
-    width: 100px;
+    height: 5.625rem;
+    width: 6.25rem;
     background-color: greenyellow;
     border-radius: 40%;
     align-items: center;
@@ -135,8 +131,8 @@ body{
 }
 .btn-category6{
 
-    height: 90px;
-    width: 100px;
+    height: 5.625rem;
+    width: 6.25rem;
     background-color: greenyellow;
     border-radius: 40%;
     align-items: center;
@@ -166,7 +162,7 @@ body{
   
   .rating label:before {
     content: '\2605';
-    font-size: 30px;
+    font-size: 1.875rem;
     transition: color 0.3s;
   }
   
@@ -195,10 +191,10 @@ body{
 
 .navbar navbar-expand-lg bg-body-tertiary {
     padding: 0px!important;
-    gap: 10px!important;
+    gap: 0.625rem!important;
 }
 a.nav-link {
-  margin-right: 10px;
+  margin-right: 0.625rem;
   row-gap: 1rem;
 }
 

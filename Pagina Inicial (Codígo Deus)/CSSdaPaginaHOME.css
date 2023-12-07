@@ -205,3 +205,10 @@ border-radius: 50px;
  gap: 40px;
 margin: 1rem;
 }
+
+
+@media screen and (max-width: 768px) {
+  .container{
+    display: block;
+  }
+}
